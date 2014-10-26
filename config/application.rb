@@ -40,6 +40,7 @@ module DoctorApi
     	g.stylesheets = false
     	g.javascripts = false
     	g.helper = false
+			g.view = false
 		end
 		
 		config.autoload_paths += %W(\#{config.root}/lib)	
